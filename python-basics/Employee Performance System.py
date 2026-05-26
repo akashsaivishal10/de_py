@@ -2,9 +2,11 @@ name = input("Enter Employee name")
 dept = input("Enter Department name")
 salary = float(input("Enter a salary"))
 rating = int(input("Enter your perfromance rating"))
-year_salary = float(salary/12) 
+year_salary = salary *12
 
-if rating >=4 :
+if rating < 1 or rating > 5:
+    print("Invalid Rating")
+elif rating >=4 :
     print(f"your rating {rating} performance is excellent")
 elif rating == 3 :
     print(f"your rating {rating} performance is good")
