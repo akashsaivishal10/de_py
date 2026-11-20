@@ -132,4 +132,12 @@ for fr in fruits :
 fruits = ["Apple", "Banana", "Mango"]
 for fr in range(len(fruits)):
     print(fr,fruits[fr])
+
+employees = ["Akash", "Ravi", "Kiran"]
+
+print(employees[0])
+
+employees.append("Suresh")
+
+print(employees)
     
