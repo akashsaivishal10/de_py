@@ -1,0 +1,4 @@
+Akash,IT,45000
+Sai,IT,55000
+Vishal,IT,65000
+Raj,IT,89000
